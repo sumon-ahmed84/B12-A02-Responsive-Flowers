@@ -129,15 +129,69 @@ a{
     font-weight: bold;
     font-size: 50px;
     line-height: 68px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .Plants-Lover-dscription p{
-    margin-bottom: 20px;
-    font-size: 22px;
+    margin-bottom: 30px;
+    font-size: 25px;
 }
 .Plants-Lover-Section img{
     width: auto;
 }
+.Plants-Lover-Section{
+    margin-bottom: 134px;
+}
+
+/* Latest Deal Section */
+.Latest-Deal-detals{
+    text-align: center;
+}
+.Latest-Deal-title{
+    font-weight: 700;
+    font-size: 3.12rem;
+    margin-bottom: 1rem;
+}
+.Latest-Deal-subtitle{
+    font-weight: 400px;
+    font-size: 1.37rem;
+}
+
+
+/* Join Section */
+.Join-Section{
+    height: 533px;
+    display: flex;
+    align-items: center;
+    background-image: url('../assets/news-letter-bg.png');
+}
+.parent-Bunch{
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 830px;
+    margin: 0 auto;
+
+}
+.colorful-Bunch{
+    display: flex;
+    justify-content: center;
+}
+.colorful-Bunch input{
+    border: none;
+    padding: 1rem ;
+    width: 600px;
+    height: 50px;
+}
+.btn2{
+    width: 186px;
+    height: 50px;
+}
+.parent-Bunch-title{
+    font-weight: 700px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+}
+
 
 
 @media screen and (max-width:425px) {
