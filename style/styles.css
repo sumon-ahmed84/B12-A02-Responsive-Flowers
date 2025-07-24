@@ -27,7 +27,7 @@
     display: flex;
     gap: 3rem;
 }
-a{
+header a{
     text-decoration: none;
 }
 #item1{
@@ -141,6 +141,19 @@ a{
 .Plants-Lover-Section{
     margin-bottom: 134px;
 }
+.badge{
+    width: 286px;
+    height: 286px;
+    border: none;
+    position: absolute;
+    left: 515px;
+    top: 1980px;
+    background: transparent;
+}
+.badge img{
+    width: 100%;
+}
+
 
 /* Latest Deal Section */
 .Latest-Deal-detals{
@@ -155,7 +168,70 @@ a{
     font-weight: 400px;
     font-size: 1.37rem;
 }
+.Latest-Deal-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin: 7.5rem 0rem;
+    height: 424px;
+    
+}
 
+.card-1{
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-2{
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-3{
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.store{
+    font-weight: 600px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.store-3{
+    font-size:1.75rem ;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.price-3{
+    font-size: 2.5rem;
+    font-weight:700px ;
+    color: #FFFFFF;
+}
 
 /* Join Section */
 .Join-Section{
@@ -163,6 +239,10 @@ a{
     display: flex;
     align-items: center;
     background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+}
+.Join-Section img{
+    width: 100%;
 }
 .parent-Bunch{
     box-sizing: border-box;
@@ -192,16 +272,19 @@ a{
     margin-bottom: 1.5rem;
 }
 /* footer section */
-li{
-    list-style: none;
-}
+
 .footer-parent{
     margin-top: 3.125rem;
     display: grid;
     grid-template-columns: 40% 10% 20% 30%;
-    gap: 50px;
+    gap: 40px;
+    box-sizing: border-box;
     
 }
+footer a{
+    text-decoration: none;
+}
+
 .footer-contact-section a{
         display: flex;
         font-weight: 400px;
