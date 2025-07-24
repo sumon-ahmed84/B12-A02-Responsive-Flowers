@@ -191,7 +191,34 @@ a{
     color: rgb(255, 255, 255);
     margin-bottom: 1.5rem;
 }
-
+/* footer section */
+li{
+    list-style: none;
+}
+.footer-parent{
+    margin-top: 3.125rem;
+    display: grid;
+    grid-template-columns: 40% 10% 20% 30%;
+    gap: 50px;
+    
+}
+.footer-contact-section a{
+        display: flex;
+        font-weight: 400px;
+        color: rgb(107, 114, 128);
+        font-size: 1rem;
+        margin-bottom: 30px;
+}
+.footer-privacy-section a{
+    display: flex;
+        font-weight: 400px;
+        color: rgb(107, 114, 128);
+        font-size: 1rem;
+        margin-bottom: 2rem;
+}
+.social-media-link img{
+        margin-right: 1.5rem;
+}
 
 
 @media screen and (max-width:425px) {
